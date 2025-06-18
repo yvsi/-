@@ -1,0 +1,25 @@
+envWINEBOOTSTRAPMODE=1MESA_GL_VERSION_OVERRIDE=3.3COMPATWINEPREFIX=/home/xdroid/.winetaskset-c4,5,6,7nice--20wine
+PREWINE ARGS : env WINEBOOTSTRAPMODE=1 MESA_GL_VERSION_OVERRIDE=3.3COMPAT WINEPREFIX=/home/xdroid/.wine taskset -c 4,5,6,7 nice --20 
+POSTWINE ARGS : wine explorer /desktop=shell,1280x720 
+WINE CMD : Z:/opt/TFM.exe D: 
+FINAL CMD : wine explorer /desktop=shell,1280x720 /usr/bin/ib.exe & env WINEBOOTSTRAPMODE=1 MESA_GL_VERSION_OVERRIDE=3.3COMPAT WINEPREFIX=/home/xdroid/.wine taskset -c 4,5,6,7 nice --20 wine explorer /desktop=shell,1280x720 Z:/opt/TFM.exe D:  &
+libandroid_shmget: bound UNIX socket /dev/shm/00003d15 in pid=15637
+libandroid_shmat: mapped addr 0x7e531000 for FD 20 ID 0
+libandroid_shmctl: IPC_RMID for shmid=3d150001
+libandroid_shmget: bound UNIX socket /dev/shm/00003d45 in pid=15685
+libandroid_shmat: mapped addr 0x7d602000 for FD 21 ID 0
+libandroid_shmctl: IPC_RMID for shmid=3d450001
+libandroid_shmat: mapped addr 0x7d99a000 for FD 22 ID 1
+libandroid_shmctl: IPC_RMID for shmid=3d450002
+libandroid_shmat: mapped addr 0x7e500000 for FD 24 ID 2
+libandroid_shmctl: IPC_RMID for shmid=3d450003
+libandroid_shmdt: unmapped addr 0x7d99a000 for FD 22 ID 1 shmid 3d450002
+libandroid_shmdt: deleting shmid 3d450002
+libandroid_shmat: mapped addr 0x7ba02000 for FD 22 ID 2
+libandroid_shmctl: IPC_RMID for shmid=3d450004
+libandroid_shmdt: unmapped addr 0x7d602000 for FD 21 ID 0 shmid 3d450001
+libandroid_shmdt: deleting shmid 3d450001
+libandroid_shmat: mapped addr 0x7d602000 for FD 21 ID 2
+libandroid_shmctl: IPC_RMID for shmid=3d450005
+libandroid_shmdt: unmapped addr 0x7ba02000 for FD 22 ID 1 shmid 3d450004
+libandroid_shmdt: deleting shmid 3d450004
